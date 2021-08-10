@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #ECECEC;
+}
+
+/* Nav Bar */
+
+
+
+.nav-container {
+	background: #F9DBDB;
+	height: 73px;
+	margin: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 73px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav .home {
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #7C7C7C;
+	margin-left: 5%;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-right: 78px;
+}
+
+.nav-items li:nth-last-of-type(1) {
+  margin-right: 5vw;
+}
+
+.nav-items li a {
+  color: #7C7C7C;
+  font-size: 18px;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+}
+
+.fade {
+	z-index: 90;
+	background: linear-gradient(180deg, #ECECEC 55.73%, rgba(236, 236, 236, 0.482759) 73.96%, rgba(236, 236, 236, 0) 92.71%);
+	height: 152px;
+	margin: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+
+}
+
+.sticker {
+	top:152px;
+	left:5%;
+	height:100vh;
+	width:100vw;
+}
+
+.namecard-container {
+	width: 276px;
+	height: 410px;
+	left: 5%;
+
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+
+	top:152px;
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+.headshot {
+	position: absolute;
+	background: url(images/headshot.png);
+	width: 166px;
+	height: 169px;
+	left: 21.72px;
+	top: 22.62px;
+}
+
+.name {
+	position: absolute;
+	width: 237.01px;
+	height: 160.6px;
+	left: 21.65px;
+	top: 205px;
+
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+
+}
+
+.name a {
+	font-size: 24px;
+}
+
+.linkedin-icon {
+	position: absolute;
+	display: inline-block;
+	width: 52px;
+	height: 51px;
+	left: 22px;
+	top: 340px;
+}
+
+.email-icon {
+	position: absolute;
+	width: 46px;
+	height: 42px;
+	left: 119px;
+	top: 343px;
+}
+
+.resume-icon {
+	position: absolute;
+	width: 48px;
+	height: 46px;
+	left: 211px;
+	top: 340px;
+
+}
+
+
+/*ABOUT ME*/
+
+.aboutme-container {
+	position: absolute;
+	width: 50vw;
+	height: 310px;
+	left: 45%;
+	top: 152px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+.aboutme-topbar {
+	position: absolute;
+	width: 50vw;
+	height: 61.22px;
+
+	background: #F9DBDB;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.aboutme {
+	position:absolute;
+	width: 50vw;
+	height: 51.66px;
+	left: 31.5px;
+	top: 4.78px;
+
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+
+	color: #7C7C7C;
+}
+
+.aboutme-text {
+	position: absolute;
+	width: 45vw;
+	height: 186.54px;
+	left: 31px;
+	top: 90px;
+
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.projects-container {
+	position: absolute;
+	width: 50vw;
+	height: 200px;
+	left: 45%;
+	top: 517px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+.projects-topbar {
+	position: absolute;
+	width: 50vw;
+	height: 61.22px;
+
+	background: #F9DBDB;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.projects {
+	position:absolute;
+	width: 50vw;
+	height: 51.66px;
+	left: 31.5px;
+	top: 4.78px;
+
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+
+	color: #7C7C7C;
+}
+
+.projects-text {
+	position: absolute;
+	width: 45vw;
+	height: 186.54px;
+	left: 31px;
+	top: 35px;
+
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+@media only screen and (max-width: 1000px) { 
+  .aboutme-container { 
+    display: none; 
+  } 
+  .projects-container {
+  	display: none;
+  }
+  .namecard-container {
+  	position: fixed;
+  	top:152px;
+  	left: 50%;
+  	transform: translate(-50%, -0%);
+  }
+}
